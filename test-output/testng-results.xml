@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="23519" started-at="2017-09-11T01:12:06Z" finished-at="2017-09-11T01:12:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23519" started-at="2017-09-11T01:12:06Z" finished-at="2017-09-11T01:12:29Z">
+      <class name="com.alg.test.executionengine.Executor">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.alg.test.executionengine.Executor@6a4f787b]" name="setUp" is-config="true" duration-ms="235" started-at="2017-09-10T21:12:06Z" finished-at="2017-09-10T21:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.alg.test.executionengine.Executor@6a4f787b]" name="beforeClass" is-config="true" duration-ms="491" started-at="2017-09-10T21:12:06Z" finished-at="2017-09-10T21:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testCase(java.lang.String)[pri:0, instance:com.alg.test.executionengine.Executor@6a4f787b]" name="testCase" duration-ms="22858" started-at="2017-09-10T21:12:06Z" data-provider="TestCases" finished-at="2017-09-10T21:12:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.alg.test.executionengine.Executor@6a4f787b]" name="afterClass" is-config="true" duration-ms="144" started-at="2017-09-10T21:12:29Z" finished-at="2017-09-10T21:12:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.alg.test.executionengine.Executor@6a4f787b]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-09-10T21:12:30Z" finished-at="2017-09-10T21:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.alg.test.executionengine.Executor -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression -->
+</testng-results>
